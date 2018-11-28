@@ -1,0 +1,38 @@
+{
+  "name": "Noticia",
+  "plural": "Noticias",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "texto": {
+      "type": "string",
+      "required": true
+    },
+    "dtCriacao": {
+      "type": "date",
+      "required": true
+    },
+    "autor": {
+      "type": "string",
+      "required": true
+    },
+    "imagem": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

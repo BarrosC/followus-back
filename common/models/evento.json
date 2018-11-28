@@ -1,0 +1,60 @@
+{
+  "name": "Evento",
+  "plural": "Eventos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "string",
+      "required": true
+    },
+    "dataEvento": {
+      "type": "date",
+      "required": true
+    },
+    "horaEvento": {
+      "type": "number",
+      "required": true
+    },
+    "dataCriacao": {
+      "type": "date",
+      "required": true
+    },
+    "distancia": {
+      "type": "number",
+      "required": true
+    },
+    "tipoEvento": {
+      "type": "string",
+      "required": true
+    },
+    "criador": {
+      "type": "object",
+      "required": true
+    },
+    "participantes": {
+      "type": [
+        "object"
+      ],
+      "required": false
+    },
+    "imagem": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
