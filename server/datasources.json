@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "mongodb": {
-    "host": "localhost",
-    "port": 27017,
+    "host": "ds119164.mlab.com",
+    "port": 19164,
     "url": "",
     "database": "followus",
-    "password": "",
+    "password": "123Mudar",
     "name": "mongodb",
-    "user": "",
+    "user": "barrosc",
     "connector": "mongodb"
   }
 }
